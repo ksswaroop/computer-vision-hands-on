@@ -8,7 +8,7 @@ original = cv2.imread("C:/Users/ksais/OneDrive/Documents/Coding/Computer Vision/
 # Wavelet transform of image, and plot approximation and details
 titles = ['Approximation', ' Horizontal detail',
           'Vertical detail', 'Diagonal detail']
-coeffs2 = pywt.dwt2(original, 'bior1.3')
+coeffs2 = pywt.dwt2(original, 'haar')
 print(coeffs2)
 LL, (LH, HL, HH) = coeffs2
 fig = plt.figure(figsize=(12, 3))
