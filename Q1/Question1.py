@@ -4,8 +4,8 @@ import imutils
 import numpy as np
 
 #loading the images
-img1=cv2.imread("C:/Users/rohit/OneDrive/Documents/Swaroop/Image 1.jpg") #Image 1
-img2=cv2.imread("C:/Users/rohit/OneDrive/Documents/Swaroop/Image 2.jpg") #Image 2
+img1=cv2.imread("C:/Users/ksais/OneDrive/Documents/Coding/Computer Vision/computer-vision-hands-on/Q1/dataset/Image1.jpg") #Image 1
+img2=cv2.imread("C:/Users/ksais/OneDrive/Documents/Coding/Computer Vision/computer-vision-hands-on/Q1/dataset/Image2.jpg") #Image 2
 
 # Convert Images from color to Gray scale
 gray1=cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY)
