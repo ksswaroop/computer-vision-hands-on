@@ -43,3 +43,5 @@ for i in range(2):
     plt.xticks([]),plt.yticks([])
 
 plt.show()
+
+#Reference : https://codeloop.org/line-detection-in-python-opencv-with-houghlines/
