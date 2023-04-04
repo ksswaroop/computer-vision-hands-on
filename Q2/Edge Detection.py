@@ -17,3 +17,5 @@ for i in range(2):
     plt.xticks([]),plt.yticks([])
 
 plt.show()
+
+#Reference: https://gist.github.com/pknowledge/05d68179cdb364e4fa4db608517f8d17
