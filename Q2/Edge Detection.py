@@ -3,8 +3,9 @@
 import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
+#Reading image
 
-img=cv.imread("C:/Users/uthri/Documents/Swaroop/Computer-Vision/Practice/Images/Image 1.jpg")
+img=cv.imread("C:/Users/ksais/OneDrive/Documents/Coding/Computer Vision/computer-vision-hands-on/Q4/dataset/Image3.jpg")
 gray=cv.cvtColor(img,cv.COLOR_BGR2GRAY) #Convert image into gray scale
 canny=cv.Canny(gray,100,50) #Using Canny Edge Detection technique. 100,200 threshold values.
 titles=['image','canny'] # To display tiles for the images displayed
