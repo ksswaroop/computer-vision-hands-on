@@ -1,11 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
 import pywt
-import pywt.data
 import cv2
-
-
 # Load image
 original = cv2.imread("C:/Users/ksais/OneDrive/Documents/Coding/Computer Vision/computer-vision-hands-on/Q4/dataset/Image3.jpg")
 
@@ -25,3 +21,5 @@ for i, a in enumerate([LL, LH, HL, HH]):
 
 fig.tight_layout()
 plt.show()
+
+# Reference : https://pywavelets.readthedocs.io/en/latest/
