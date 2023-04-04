@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 
 img=cv.imread("C:/Users/ksais/OneDrive/Documents/Coding/Computer Vision/computer-vision-hands-on/Q4/dataset/Image3.jpg")
 gray=cv.cvtColor(img,cv.COLOR_BGR2GRAY) #Convert image into gray scale
-canny=cv.Canny(gray,100,50) #Using Canny Edge Detection technique. 100,200 threshold values.
+canny=cv.Canny(gray,100,50) #Using Canny Edge Detection technique. 100,50 threshold values.
 titles=['image','canny'] # To display tiles for the images displayed
 images=[gray,canny] #List of original image and canny image
 
