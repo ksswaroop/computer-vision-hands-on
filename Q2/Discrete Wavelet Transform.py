@@ -13,6 +13,7 @@ original = cv2.imread("C:/Users/ksais/OneDrive/Documents/Coding/Computer Vision/
 titles = ['Approximation', ' Horizontal detail',
           'Vertical detail', 'Diagonal detail']
 coeffs2 = pywt.dwt2(original, 'bior1.3')
+print(coeffs2)
 LL, (LH, HL, HH) = coeffs2
 fig = plt.figure(figsize=(12, 3))
 for i, a in enumerate([LL, LH, HL, HH]):
