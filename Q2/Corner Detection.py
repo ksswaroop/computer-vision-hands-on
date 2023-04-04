@@ -32,3 +32,5 @@ cv2.imshow('Image with Borders', image)
 # De-allocate any associated memory usage 
 if cv2.waitKey(0) & 0xff == 27:
     cv2.destroyAllWindows()
+
+#Reference : https://www.geeksforgeeks.org/python-corner-detection-with-harris-corner-detection-method-using-opencv/
